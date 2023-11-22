@@ -1,7 +1,7 @@
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-const server = require("./app");
+import server from "./app";
 const port = process.env.PORT || 5001;
 
 server.listen(port, () => {
