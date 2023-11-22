@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      
+      // other options...
+  },
+  // include or exclude options...
+}
