@@ -10,10 +10,5 @@ const closeConnection = async () => {
   await disconnect(); // Assuming disconnect is how you close the connection
 };
 
-// Close the connection after all tests are finished
-afterAll(async () => {
-  await closeConnection();
-});
-
 export const newModel = model<Pool>("newModel", pool, "newModel");
 run().catch((err) => console.log(err));
