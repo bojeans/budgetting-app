@@ -1,0 +1,17 @@
+[
+    {
+        "date": "2022-04-20",
+        "category": "rent",
+        "price": 220
+    },
+    {
+        "date": "2022-04-27",
+        "category": "rent",
+        "price": 220
+    },
+    {
+        "date": "2022-04-23",
+        "category": "groceries",
+        "price": 100
+    }
+]
